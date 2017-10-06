@@ -3,7 +3,7 @@ from app import app
 @app.route('/')
 @app.route('/index')
 def index():
-    return("Hello GumGum! version 1.0.0")
+    return("Hello GumGum! version master")
 
 @app.route('/health')
 def health():
