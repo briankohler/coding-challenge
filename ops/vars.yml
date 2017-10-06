@@ -1,6 +1,6 @@
 ---
 
 version: master
-app_name: coding-challenge
+app_name: flask_blog_app
 repository: https://github.com/briankohler/coding-challenge.git
 
