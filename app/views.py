@@ -6,5 +6,5 @@ def index():
     return("Hello GumGum!")
 
 @app.route('/health')
-def health()
+def health():
     return("OK")
