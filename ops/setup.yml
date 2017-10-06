@@ -1,10 +1,11 @@
 ---
 
-- name: Deploy
+- name: Setup
   hosts: all
   vars_files:
     - ./vars.yml
   roles:
     - role: gumgum-flask
   tags:
-    - deploy
+    - setup
+
