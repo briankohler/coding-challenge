@@ -1,0 +1,13 @@
+---
+
+- name: make roles dir
+  hosts: all
+  tasks:
+    - file:
+        path: /etc/ansible/roles
+        state: directory
+
+- name: pull role
+  hosts: all
+  tasks:
+    - command: ansible-galaxy install -r requirements.yml -p /etc/ansible/roles --force
