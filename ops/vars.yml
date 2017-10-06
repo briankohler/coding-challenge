@@ -1,6 +1,6 @@
 ---
 
-version: 1.0.0
+version: master
 app_name: coding-challenge
 repository: https://github.com/briankohler/coding-challenge.git
 
