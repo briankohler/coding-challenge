@@ -3,7 +3,7 @@ from app import app
 @app.route('/')
 @app.route('/index')
 def index():
-    F = open("static/version", "r")
+    F = open("app/static/version", "r")
     version = F.read()
     return("Hello GumGum! Version:" + version)
 
