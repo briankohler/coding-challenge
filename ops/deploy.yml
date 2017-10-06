@@ -1,10 +1,5 @@
 ---
 
-- name: pull role
-  hosts: all
-  tasks:
-    - command: ansible-galaxy install -r requirements.yml -p /etc/ansible/roles --force
-
 - name: Setup
   hosts: all
   vars_files:
