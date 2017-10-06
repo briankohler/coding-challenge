@@ -5,7 +5,7 @@ from app import app
 def index():
     F = open("app/static/version", "r")
     version = F.read()
-    return("Hello GumGum! Version:" + version)
+    return("Hello GumGum! NEW Version:" + version)
 
 @app.route('/health')
 def health():
