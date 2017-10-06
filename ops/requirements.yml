@@ -1,0 +1,4 @@
+---
+
+- src: git+https://github.com/briankohler/gumgum-flask.gita
+  version: master
